@@ -20,3 +20,8 @@ su -c 'dnf install -y http://download1.rpmfusion.org/free/fedora/rpmfusion-free-
 #Install Fedy
 echo 'Installing Fedy';
 bash -c 'su -c "curl http://folkswithhats.org/fedy-installer -o fedy-installer && chmod +x fedy-installer && ./fedy-installer"'
+
+#Install Tuned Utility
+echo 'Installing Tuned';
+dnf install tuned -y;
+systemctl enable tuned;
