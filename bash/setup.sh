@@ -25,3 +25,7 @@ bash -c 'su -c "curl http://folkswithhats.org/fedy-installer -o fedy-installer &
 echo 'Installing Tuned';
 dnf install tuned -y;
 systemctl enable tuned;
+
+#Install Redshift-Gtk, Because your eyes are precious
+echo 'Installing Redshift'
+dnf install redshift-gtk -y;
