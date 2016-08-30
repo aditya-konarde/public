@@ -29,3 +29,4 @@ systemctl enable tuned;
 #Install Redshift-Gtk, Because your eyes are precious
 echo 'Installing Redshift'
 dnf install redshift-gtk -y;
+echo 'Installed Redshift';
