@@ -1,5 +1,6 @@
 #!/bin/bash
 #A shell wrapper around youtube-mp3. Makes it easy to download mp3 music from youtube
+#prerequisite: youtube-dl
 #Usage: youtube-mp3 Link-for-music
 youtube-dl -x --embed-thumbnail --audio-format mp3 $1
 mv ./*.mp3 ~/Music
