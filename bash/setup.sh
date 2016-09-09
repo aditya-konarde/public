@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 #A shell script to make your life easy,by installing commonly used software
 #Suitable for a fresh installation of fedora 24
